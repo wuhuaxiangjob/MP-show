@@ -1,0 +1,91 @@
+.content {
+  position: relative;
+}
+
+.vertical-content {
+  background-color: #ffffff;
+}
+
+.landscape-content {
+  background-color: #000000;
+}
+
+.btn-list {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.btn-item {
+  padding: 16rpx 32rpx;
+  color: rgba(0, 0, 0, 0.65);
+  text-shadow: 0 -2rpx 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 4rpx 0 rgba(0, 0, 0, 0.045);
+  outline: 0;
+  line-height: 1.2;
+  text-align: center;
+  white-space: nowrap;
+  border: 2rpx solid transparent;
+  border-radius: 10rpx;
+  margin: 0 30rpx;
+  font-size: 14px;
+}
+.btn-active {
+  color: #ffffff;
+  background-color: #1890ff;
+  border-color: #1890ff;
+}
+.input-box {
+  /* height: 45rpx; */
+  display: flex;
+  margin-top: 40rpx;
+}
+.input-box .input-btn {
+  height: 64rpx;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 64rpx;
+  background-color: #ff4d4f;
+}
+.input-box input {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8rpx;
+  height: 64rpx;
+  margin-left: 30rpx;
+  padding-left: 20rpx;
+  font-size: 14px;
+  width: 68vw;
+}
+.tip text {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 12px;
+  margin-left: 30rpx;
+}
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+  z-index: 4;
+}
+.modal .render-text {
+  display: block;
+  width: 100vw;
+  /* line-height: 100vh; */
+  text-align: center;
+  font-size: 100px;
+  color: #cccc00;
+}
+.modal .input-val{
+  display: block;
+  padding-top: 30px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #cccc00;
+}
+.one-modal .render-text{
+  line-height: 100vh;
+}
